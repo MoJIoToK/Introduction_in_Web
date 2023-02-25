@@ -397,8 +397,8 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-*test.Image.jpg
 *Было.png
 *Было1.png
 *Стало.png
+*{8CF17A40-CB49-4376-99BB-A9016FD2EE1B}.png
 

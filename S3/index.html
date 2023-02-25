@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lesson #3 - Javascript</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //alert("Hello, GB!");
+        console.log("Lesson #3");
+        //let a = parseInt(prompt("Введите число: "));
+        // let b = parseInt("Введите число: ");
+        //let a = 158;
+        // let b = 2;
+        // alert(`Result of sum: ${a + b}`);
+
+        // alert("Hello, whats your name?");
+        // let name = prompt("Введите имя: ", "имя");
+        // showHello(name);
+        
+        // function showHello(userName){
+        //     alert(`Привет, ${userName}!`);
+        // }
+
+        // let question = confirm("Вы уверены?");
+        // if (question == true) {
+        //     alert("Мы рады что Вы уверены!");
+        // }
+        // else {alert("Жаль что Вы не уверены!");}
+
+
+
+        // let age = parseInt(prompt("Введите возраст: "));
+
+        // switch(age){
+        //     case 18:
+        //         alert('Вы совершеннолетний, делайте что хотите!');
+        //         break;
+        //     case 10:
+        //         alert('Вам надо учить уроки');
+        //         break;
+        //     case 30:
+        //         alert('Ложитесь в кроватку, Вам завтра на работу');
+        //         break;
+        //     default:
+        //         alert('Возраст не определен!');
+        // }
+
+
+        let x1 = parseInt(prompt("Введите левую границу отрезка: "));
+        let x2 = parseInt(prompt("Введите правую границу отрезка: "));
+
+        let x3 = parseInt(prompt("Введите левую границу отрезка: "));
+        let x4 = parseInt(prompt("Введите правую границу отрезка: "));
+
+        let max = Math.max(x1, x3);
+        let min = Math.min(x2, x4);
+
+        if (max < min) {
+            alert(`Отрезок: [${max}, ${min}]`);
+        }
+        else if (max == min){
+            alert(max);
+        }
+        else{
+            alert ("Пересечений нет");
+        }
+
+    </script>
+    
+</body>
+</html>
