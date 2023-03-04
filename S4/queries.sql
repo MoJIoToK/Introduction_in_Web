@@ -1,0 +1,17 @@
+
+-- create
+CREATE TABLE STUDENTS (
+  empId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  age INTEGER NOT NULL,
+  address TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO STUDENTS VALUES (0001, 'Clark', 21, 'Moscow');
+INSERT INTO STUDENTS VALUES (0002, 'Dave', 22, 'St.Peterburg');
+INSERT INTO STUDENTS VALUES (0003, 'Ava', 20, 'Omsk');
+INSERT INTO STUDENTS VALUES (0004, 'Bava', 25, 'Tomsk');
+
+-- fetch 
+SELECT * FROM STUDENTS;
